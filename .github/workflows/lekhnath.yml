@@ -6,8 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "seting up python env version 3.12"
-      # - uses: actions/checkout@v4
-      # - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v3
       # - with:
       #     python-version: '3.12'
       # - run: echo "installing requirements"
