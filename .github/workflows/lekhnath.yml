@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: echo "installing requirements"
-      - run: pip install -r ${{ RUNNER_TEMP }}/requirements.py
+      - run: ls ${{ github.workspace }}
       - run: echo "start running tests"
       - run: pytest
       - run: echo "test run finish!"
